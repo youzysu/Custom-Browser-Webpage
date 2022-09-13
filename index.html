@@ -8,6 +8,8 @@
     <title>Chrong App</title>
   </head>
   <body>
+    <h1 id="clock">00:00:00</h1>
+
     <form id="loginForm" class="hidden">
       <input
         type="text"
@@ -17,15 +19,23 @@
       />
       <input type="submit" value="Log In" />
     </form>
+
     <h1 id="greeting" class="hidden"></h1>
-    <h2 id="clock">00:00:00</h2>
+
+    <form id="toDoForm">
+      <input type="text" placeholder="Wirte a To Do and Press Enter" required />
+    </form>
+    <ul id="toDoList"></ul>
+
     <div id="quote">
       <span></span>
       <span></span>
     </div>
+
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
   </body>
 </html>
