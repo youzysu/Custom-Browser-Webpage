@@ -2,15 +2,11 @@
 
 > [Toy Project for studying HTML, CSS, JavaScript]()
 
-<br />
-
 ## 1. 사용 기술
 
 - HTML
 - CSS
 - JavaScript
-
-<br />
 
 ## 2. 구현 기능
 
